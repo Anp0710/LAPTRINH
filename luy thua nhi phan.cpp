@@ -9,7 +9,7 @@ ll pow1(int a, int b){
 			res *= a;
 		}
 		b /= 2;
-		a *= 2;
+		a *= a;
 	}
 	return res;
 }
